@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang = "pt-br">
+<head>
+    <title>Days Counter</title>
+    <meta charset = "UTF-8" />
+    <link rel = "stylesheet" type = "text/css" href = "_css/style.css" />
+</head>
+<body>
+
+<div id = "caixaPrincipal">
+
+<div id = "barraMenu">
+
+    <div class = "alignLeft">
+        
+     
+        <progress id = "tagProgresso" min = "0" max = "100" value = "0" ></progress>
+        <span id = "tagTxtPercentualDias" class = "fundoAzul"></span>
+            
+        
+    </div>    
+
+    <div class = "alignRight">
+         
+
+        <input id = "numDiascontador" type = "number" min = "1" max = "100" value = "1" required /> 
+        <button id = "btNovoContador">Create a new counter</button>
+
+          
+    </div>   
+
+</div>
+
+
+
+
+<div id = "caixaContador">    
+<h1 class = "fundoAzul">Goal</h1>
+
+<ul id = "tagListaDias">
+
+
+</ul>     
+
+</div>    
+
+
+<div class = "ghost ghost2" id = "tagDivMsg">
+
+    <div>    
+        <h2 id = "txtDivMsg">keep at it!</h2>
+        <img class = "ghost" src = "_imgs/victory.jpg" />
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+<template id = "template1">
+    <li>
+        <label>
+            <input type = "checkbox">
+            <span></span>
+        </label>
+    </li>
+</template>
+
+
+
+
+
+
+
+
+
+<script src = "_javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+*
+{
+overflow-x:hidden;
+
+}
+
+body
+{
+width:70%;
+margin:0 auto;
+background:#F0F1F0; 
+}
+
+#barraMenu 
+{
+background:rgba(0,0,0,.7);
+width:100%;  
+padding:3px;
+box-sizing:border-box;
+float:left;
+margin-bottom:10px;
+
+}
+
+#barraMenu > div
+{
+width:30%;
+}
+
+
+
+.alignLeft
+{
+text-align:left; 
+float:left;
+}
+
+
+
+.alignRight
+{
+text-align:right;
+float:right;
+}
+
+
+
+#tagProgresso
+{
+width:100px;
+height:25px;
+margin:0;
+box-sizing:border-box;
+border:none;
+opacity:.6;
+display:block;
+}
+
+
+#tagProgresso::-moz-progress-bar
+{
+background:#256596;
+}
+
+
+#tagTxtPercentualDias
+{
+display:block;
+width:100px;    
+padding:3px;
+box-sizing:border-box;
+text-align:center;
+font-family:arial;
+color:#fff;
+opacity:.6;
+font-size:12.5px;
+}
+
+
+#numDiascontador
+{
+width:50px;
+height:40px;
+background:transparent;
+border:none;
+color:#fff;
+}
+
+#caixaContador
+{
+/*
+
+border-left:3px solid #256596; 
+border-right:3px solid #256596;
+border-bottom:3px solid #256596;
+*/
+
+width:420px;
+margin:10px auto;
+box-sizing:border-box;
+clear: both;
+}
+
+#caixaContador h1
+{
+text-align:center;
+color:#fff;
+margin:0;
+padding:5px 0;
+font-family:NanumGothic;
+text-shadow:0px 0px 1px #000;
+}
+
+#tagListaDias
+{
+list-style:none;
+padding:0;
+margin:0;
+
+}
+
+#tagListaDias li label
+{
+margin-top:2px;
+padding:10px 0;
+display:block;
+}
+
+#tagListaDias li label span
+{
+text-align:center;
+display:block;
+color:#fff;
+font-family:"arial";
+font-weight:bolder;
+text-shadow:0px 0px 1px rgba(0,0,0,1);
+
+font-size:20px;
+opacity:.8;
+}
+
+
+
+#tagDivMsg
+{
+width:100%;
+height:100vh;
+text-align:center;
+background:rgba(0,0,0,0.9);
+position:fixed;
+top:0;
+left:0;
+transition:opacity 0.4s ease-in-out; 
+}
+
+#txtDivMsg
+{
+font-family:'Comic Sans MS' ;
+color:#fff;
+font-size:50px;
+text-shadow:1px 1px 1px #111;
+}
+
+#tagDivMsg img
+{
+width:400px;
+margin:0 auto;    
+border: 3px solid #FFF6E5;
+box-shadow:1px 1px 1px #111;
+
+}
+
+
+
+
+.fundoAmarelo
+{
+background:#FCEB2E; 
+}
+
+.fundoCinza
+{
+background:#E0DFE1; 
+}
+
+.fundoVerde 
+{
+background:#42B849;
+}
+
+.fundoPreto
+{
+background:#202019;
+}
+
+
+.fundoAzul
+{
+background:#256596;
+}
+
+
+.cursorPointer
+{
+cursor:pointer;
+}
+
+.ghost
+{
+display:none;
+}
+
+.ghost2
+{
+opacity:0;
+}
+
+
+
+@media screen and (max-width:1200px)
+{
+
+body
+{
+width:90%;
+}
+
+#caixaPercentuais
+{
+width:180px;
+}
+
+#tagProgresso
+{
+height:30px;
+}
+
+#tagTxtPercentualDias
+{
+padding:5px;
+}
+
+
+}
+
+@media screen and (max-width:850px)
+{
+
+body
+{
+width:100%;
+}
+
+#barraMenu > div
+{
+width:50%;
+}
+
+
+}
+
+
+@media screen and (max-width:480px)
+{
+
+    body
+    {
+    width:100%;
+    }
+
+    #caixaContador
+    {
+    width:100%;
+    }
+
+   
+    #barraMenu > div
+    {
+    width:100%;
+    }
+
+    .alignLeft
+    {
+    text-align:center;
+    }
+
+      .alignRight
+    {
+    text-align:center;
+    }
+
+    #tagProgresso
+    {
+    margin:0 auto;
+    width:80%;
+    }
+
+    #tagTxtPercentualDias
+    {
+    margin:0 auto;
+    width:80%;
+    }
+
+    #tagDivMsg h2
+    {
+    font-size:40px;
+    }
+
+    #tagDivMsg img
+    {
+    width:90%;
+    }
+
+}
+
+
+
+
